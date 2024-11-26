@@ -1,0 +1,58 @@
+/* Resetando o estilo padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+#story-container {
+    margin-bottom: 20px;
+}
+
+#choices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button.choice {
+    background-color: #ffcc00;
+    color: #001f3d;
+    border: none;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.choice:hover {
+    background-color: #ff9900;
+}
+
+button.choice:focus {
+    outline: none;
+}
